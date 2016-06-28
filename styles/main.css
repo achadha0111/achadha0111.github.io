@@ -1,38 +1,16 @@
-.header {
-    background: url(../img/Entech.png)  no-repeat ;
-    background-color:#349df9;  
-    height: 700px;
-}
-h1 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #fff;
-    font-size: 70px;
-}
-#text-holder {
-    margin-top: 5%;
-}
-h5 {
-    color: #fff; 
-     
-}
-.mdl-button {
-    margin-left: 30%;
-}
-.section--about{   
-    background-color: #f7f7f7;
-    
-}
-.about--header, .facility--header, .clients--header, .enquiry--header  {
-    color: #000;
-}
-#more-info {
-    margin-left: 0;
-}
-.section--clients {
-     background-color: #f7f7f7;
-}
-.contact--2 {
-    margin-top: 9.1%;
-}
-
-
+            .movie-card-demo.mdl-card {
+                width: 320px;
+                height: 320px;
+            }
+            .movie-card-demo > .mdl-card__title {
+                color: #fff;
+                background: url('../img/background5.jpg');
+                background-size: 320px;
+            }           
+            .mdl-card__menu {
+                color: #fff;
+            }
+  
+           
+            
+            
