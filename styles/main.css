@@ -10,7 +10,10 @@
             .mdl-card__menu {
                 color: #fff;
             }
-  
+            .mdl-textfield{
+                width: 50%;
+                margin-left: 25%;
+            }
            
             
             
