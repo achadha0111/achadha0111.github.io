@@ -1,6 +1,6 @@
-            .movie-card-demo.mdl-card {
-                width: 320px;
-                height: 320px;
+            .wiki-card-demo.mdl-card {
+                
+                height: auto;
             }
             .movie-card-demo > .mdl-card__title {
                 color: #fff;
