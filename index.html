@@ -67,7 +67,7 @@
         $(document).ready(function(){   
                 $('#sample3').keyup(function(e){
                 var query = $("#sample3").val();
-                $.getJSON('https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=' + encodeURIComponent(query) + '&prop=extract&format=json&callback=?', function(response){
+                $.getJSON('https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=' + encodeURIComponent(query) + '&format=json&callback=?', function(response){
                     console.log(response);
                 });
 
