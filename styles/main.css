@@ -63,7 +63,7 @@ h5, .mdl-card__title-text {
     text-align: center;
 }
 table {
-    width: 100%;
+    width: auto;
     margin: auto;
     text-align: center;
 }
