@@ -1,19 +1,84 @@
-            .wiki-card-demo.mdl-card {
-                
-                height: 320px;
-            }
-            .movie-card-demo > .mdl-card__title {
-                color: #fff;
-                background: url('../img/background5.jpg');
-                background-size: 320px;
-            }           
-            .mdl-card__menu {
-                color: #fff;
-            }
-            .mdl-textfield{
-                width: 50%;
-                margin-left: 25%;
-            }
-           
-            
-            
+.header {
+    background: url(../img/Entech.jpg)  no-repeat ;
+    background-color: #0080ff;
+    height: 750px;
+}
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-size: 70px;
+}
+.header-grid {
+    margin: 0;
+    padding: 0;
+}
+#text-holder {
+    margin-top: 5%;    
+}
+h5, .mdl-card__title-text {
+    color: #fff; 
+     
+}
+.mdl-button {
+    margin-left: 30%;
+}
+.section--about{   
+    background-color: #f7f7f7;
+    
+}
+.about--header, .facility--header, .clients--header, .enquiry--header  {
+    color: #000;
+}
+#more-info {
+    margin-left: 0;
+}
+.section--clients {
+     background-color: #f7f7f7;
+}
+.contact--2 {
+    margin-top: 9.1%;
+}
+.mdl-card {
+    width: auto;
+    margin-top: 2%;
+    height: 320px;
+}
+#machine1 {
+    height: 250px;
+    background: url('../img/machine1.jpg') center / cover;
+} 
+#machine2 {
+    background: url('../img/machine2.jpg') center / cover;
+    height: 250px;
+} 
+#machine3 {
+    background: url('../img/machine3.jpg') center / cover;
+    height: 250px;
+} 
+#machine4 {
+    background: url('../img/machine4.jpg') center / cover;
+    height: 250px;
+} 
+.section--technology {
+    text-align: center;
+}
+table {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#plant-head, #admin, #conventional, #market, #design, #manufacturing, #CNC, #EDM, #milling {
+    text-align: center;
+    border:1px solid black;
+
+}
+.section--people > .mdl-grid > div > h5 {
+    color: #000;
+}
+body {
+    background-color: #e9e8e5;
+}
+.section--people, .section--machinery {
+    background-color: #fff;
+}
+
