@@ -1,19 +1,34 @@
-.header {
+@font-face {
+    font-family: "Augie";
+    src: url(../fonts/augie.ttf);
+}
+@font-face {
+    font-family: "Hanzel";
+    src: url(../fonts/hanzel.ttf);
+}
+#img-holder {
     background: url(../img/Entech.jpg)  no-repeat ;
-    background-color: #0080ff;
     height: 750px;
 }
-h1 {
-    font-family: 'Open Sans Condensed', sans-serif;
+.company_name {
+    font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
     color: #fff;
     font-size: 70px;
+    padding-top: 30%;
+    margin-left: 5%;
 }
-.header-grid {
-    margin: 0;
-    padding: 0;
+.company_subtext {
+    font-family: 'Augie', sans-serif;
+    color: #fff;
+    margin-left: 5%;
 }
+h1 {
+   font-family: 'Open Sans Condensed', sans-serif; 
+}
+
 #text-holder {
-    margin-top: 5%;    
+    
+    background-color: #33aaee;   
 }
 h5, .mdl-card__title-text {
     color: #fff; 
@@ -63,7 +78,7 @@ h5, .mdl-card__title-text {
     text-align: center;
 }
 table {
-    width: auto;
+    width: 50%;
     margin: auto;
     text-align: center;
 }
@@ -76,9 +91,16 @@ table {
     color: #000;
 }
 body {
-    background-color: #e9e8e5;
+    background-color: #fff;
 }
 .section--people, .section--machinery {
-    background-color: #fff;
+    
+    background-color: #f9f6f5;
+}
+.process-img {
+    background: url('../img/process.png') center /cover;
+    height: 477px;
+    width: 820px;
+    margin-left: 60%;    
 }
 
