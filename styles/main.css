@@ -25,6 +25,9 @@
 h1 {
    font-family: 'Open Sans Condensed', sans-serif; 
 }
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
 #text-holder {
     
@@ -98,9 +101,67 @@ body {
     background-color: #f9f6f5;
 }
 .process-img {
-    background: url('img/process.png') center /cover;
+    background: url('../img/process.png') center /cover;
     height: 477px;
     width: 820px;
     margin-left: 60%;    
 }
-
+.card-wide {
+    border-radius: 15px;
+}
+.guide__header {
+    height: 20px;
+}
+#boeing1 {
+    background: url('../img/aviation/boeing.png') center / cover;
+    height: 220px;
+    
+}
+#boeing2 {
+    background: url('../img/aviation/aviation-1.png') center / cover;
+    height: 220px; 
+}
+#boeing3 {
+    background: url('../img/aviation/aviation-2.png') center / cover;
+    height: 220px; 
+}
+#unominda {
+    background: url('../img/unominda/unominda-1.png') center / cover;
+    height: 220px; 
+}
+#unominda2 {
+    background: url('../img/unominda/unominda-2.png') center / cover;
+    height: 220px; 
+}
+#airconditioning {
+    background: url('../img/it/it-1.png') center / cover;
+    height: 220px; 
+}
+#genus {
+    background: url('../img/genus/genus-1.png') center / cover;
+    height: 220px; 
+}
+#matrix {
+    background: url('../img/matrix.png') center / cover;
+    height: 220px; 
+}
+#kessebohmer {
+    background: url('../img/kessenbohmer/kessenbohmer-2.png') center / cover;
+    height: 220px; 
+}
+#larsen {
+    background: url('../img/switchgear/switchgear-1.png') center / cover;
+    height: 220px; 
+}
+#vetus {
+    background: url('../img/switchgear/switchgear-2.png') center / cover;
+    height: 220px; 
+}
+#denso {
+    background: url('../img/denso.png') center / cover;
+    height: 220px; 
+}
+#portescap {
+    background: url('../img/health/health-2.png') center / cover;
+    height: 220px; 
+}
