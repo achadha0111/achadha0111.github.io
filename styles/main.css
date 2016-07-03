@@ -98,7 +98,7 @@ body {
     background-color: #f9f6f5;
 }
 .process-img {
-    background: url('../img/process.png') center /cover;
+    background: url('img/process.png') center /cover;
     height: 477px;
     width: 820px;
     margin-left: 60%;    
