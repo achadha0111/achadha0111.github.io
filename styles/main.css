@@ -7,20 +7,25 @@
     src: url(../fonts/hanzel.ttf);
 }
 #img-holder {
-    background: url(../img/Entech.jpg)  no-repeat ;
-    height: 750px;
+    background: url(../img/entech.jpg)  no-repeat ;
+    height: 768px;
+    background-color: #33aaee;
+   
 }
 .company_name {
     font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
     color: #fff;
-    font-size: 70px;
+    font-size: 60px;
     padding-top: 30%;
-    margin-left: 5%;
+    margin-left: 2%;
+    
+    
 }
 .company_subtext {
     font-family: 'Augie', sans-serif;
     color: #fff;
-    margin-left: 5%;
+    margin-left: 2%;
+   
 }
 h1 {
    font-family: 'Open Sans Condensed', sans-serif; 
@@ -30,7 +35,7 @@ h3 {
 }
 
 #text-holder {
-    
+   
     background-color: #33aaee;   
 }
 h5, .mdl-card__title-text {
@@ -130,7 +135,7 @@ body {
     height: 220px; 
 }
 #unominda2 {
-    background: url('../img/unominda/unominda-2.png') center / cover;
+    background: url('../img/unominda/unominda-3.jpg') center / cover;
     height: 220px; 
 }
 #airconditioning {
@@ -146,19 +151,19 @@ body {
     height: 220px; 
 }
 #kessebohmer {
-    background: url('../img/kessenbohmer/kessenbohmer-2.png') center / cover;
+    background: url('../img/kessenbohmer/kessenbohmer-1.JPG') center / cover;
     height: 220px; 
 }
 #larsen {
-    background: url('../img/switchgear/switchgear-1.png') center / cover;
+    background: url('../img/switchgear/switchgear-1.JPG') center / cover;
     height: 220px; 
 }
 #vetus {
-    background: url('../img/switchgear/switchgear-2.png') center / cover;
+    background: url('../img/switchgear/switchgear-2.JPG') center / cover;
     height: 220px; 
 }
 #denso {
-    background: url('../img/denso.png') center / cover;
+    background: url('../img/denso.JPG') center / cover;
     height: 220px; 
 }
 #portescap {
