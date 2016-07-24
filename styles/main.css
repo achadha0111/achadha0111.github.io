@@ -7,9 +7,15 @@
     src: url(../fonts/hanzel.ttf);
 }
 #img-holder {
-    background: url(../img/Entech.jpg)  no-repeat ;
-    height: 768px;
-    background-color: #33aaee;
+    background: url(../img/entech_cover-2.jpg)  no-repeat center;
+    height: 788px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#text-holder {
+   background-color: #3bb9ff;
    
 }
 .company_name {
@@ -34,10 +40,7 @@ h3 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#text-holder {
-   
-    background-color: #33aaee;   
-}
+
 h5, .mdl-card__title-text {
     color: #fff; 
      
