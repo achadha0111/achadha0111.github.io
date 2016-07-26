@@ -6,16 +6,7 @@
     font-family: "Hanzel";
     src: url(../fonts/hanzel.ttf);
 }
-#img-holder {
-    background: url(../img/Entech.jpg)  no-repeat center;
-    height: 788px;
-    width: 75%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   
-}
+
 #text-holder {
    background-color: #3bb9ff;
    
