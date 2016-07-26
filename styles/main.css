@@ -6,7 +6,10 @@
     font-family: "Hanzel";
     src: url(../fonts/hanzel.ttf);
 }
-
+img {
+	width: 100%;
+	height: 100%;
+}
 #text-holder {
    background-color: #3bb9ff;
    
