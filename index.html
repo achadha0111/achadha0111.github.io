@@ -16,7 +16,7 @@
   	<div class="fluid-container">
         <div class = "row">
           <div class="col-xs-12 col-sm-12 col-md-9" id = "hero">
-            <video poster="img/guh.png" id="bgvid" playsinline autoplay muted loop>
+            <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
               <source src="video/guhloop.mp4" type="video/mp4">
             </video>
@@ -28,22 +28,25 @@
               <button class = "contact" class="btn btn-default"> Contact Us</button>
             </div>
           </div> <!-- Hero Container -->
-          <div class="col-xs-12 col-sm-12 col-md-3" id = "event-details"> 
-            <i class="fa fa-calendar fa-5x" aria-hidden="true"></i>
-            <h1> Event Details </h1>
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "nav-div"> 
+            <div id = "event-details">
+              <i class="fa fa-calendar fa-4x" aria-hidden="true"></i>
+              <h2> Event Details </h2>
+            </div>
+            <div id = "faq"> 
+              <i class="fa fa-question-circle fa-4x" aria-hidden="true"></i>
+              <h2> FAQ </h2>
+            </div>
+            <div id = "sponsors"> 
+              <i class="fa fa-code-fork fa-4x" aria-hidden="true"></i>
+              <h2> Sponsors </h2>
+            </div>
+            <div id = "team"> 
+              <i class="fa fa-users fa-4x" aria-hidden="true"></i>
+              <h2> Team </h2>
+            </div>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-3" id = "faq"> 
-            <i class="fa fa-question-circle fa-5x" aria-hidden="true"></i>
-            <h1> FAQ </h1>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-3" id = "sponsors"> 
-            <i class="fa fa-code-fork fa-5x" aria-hidden="true"></i>
-            <h1> Sponsors </h1>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-3" id = "team"> 
-            <i class="fa fa-users fa-5x" aria-hidden="true"></i>
-            <h1> Team </h1>
-          </div>
+          
         </div>
   		
   	</div> <!-- Container Div -->

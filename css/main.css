@@ -1,32 +1,33 @@
-
 #hero {
 	height: 100%;
 	background-color: rgba(255, 206, 0, 0.6);
 }
+#nav-div {
+	height: 100%;
+}
 #event-details {
-	height: 25%;
 	background-color: #F53240;
-	padding-top: 3%;	
-
+	height: 25%;
+	padding: 2em;
+	
 }
 #faq {
+	background-color: #008F95;	
 	height: 25%;
-	background-color: #008F95;
-	padding-top: 3%;	
+	padding: 2em;
 	
 }
 #sponsors {
-	height: 25%;
 	background-color: #192231;
-	padding-top: 3%;
-	
+	height: 25%;
+	padding: 2em;
 }
 #team {
+	background-color: #A239CA;	
 	height: 25%;
-	background-color: #A239CA;
-	padding-top: 3%;	
+	padding: 2em;
 }
-h1 {
+h2 {
 	color: white;
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -61,7 +62,7 @@ i {
 .register {
 	color: #fff;
  	background: transparent;
- 	border: 2px solid #813772;
+ 	border: 2px solid #fff;
  	font-size: 20px;
  	height: 50px;
  	font-weight: normal;
@@ -94,7 +95,6 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- 	background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  	background-size: cover;
+  	background-size: 100%;
   	transition: 1s opacity;
 }
