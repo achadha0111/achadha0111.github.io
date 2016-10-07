@@ -1,181 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title> Entech Kunststoffe Solution Pvt.Ltd </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="mdl/material.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="mdl/material.min.js"></script>
-        <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-deep_purple.min.css" />
-        <script src="https://use.fontawesome.com/04867bf9d1.js"></script>  
-        <link rel="stylesheet" href="styles/main.css"> 
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'> 
-        <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css">
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"> 
-        <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script> -->
-        
-    </head>
-    <body>
-        <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header"> <!-- Layout div -->
-            <header class = "mdl-layout__header mdl-color--grey-900">
-               <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">Entech Kunstoffe</span>
-                <div class="mdl-layout-spacer"></div>
-                <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" href="#section--about">About</a>
-                    <a class="mdl-navigation__link" href="#section--facility">Facility</a>
-                    <a class="mdl-navigation__link" href="#section--clients">Clients</a>
-                    <a class="mdl-navigation__link" href="#section--contact">Contact</a>
-                </nav>
-           
-               </div>
-            </header>
-            <div class="mdl-layout__drawer">
-                <span class="mdl-layout-title">Menu</span>
-                <nav class="mdl-navigation">
-                  <a class="mdl-navigation__link" href="about.html">About</a>
-                  <a class="mdl-navigation__link" href="facilitiy.html">Facilities</a>
-                  <a class="mdl-navigation__link" href="clients.html">Clients</a>
-                  <a class="mdl-navigation__link" href="#section--contact">Contact</a>
-                </nav>
+<html>
+  <head>
+  	<title> Great Uni Hack 2016</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  	<!-- Latest compiled and minified CSS -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	 <link rel="stylesheet" href="css/main.css"> 
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+   <script src="https://use.fontawesome.com/7dbec7de48.js"></script>
+  </head>
+  <body class = "grid">
+  	<div class="fluid-container">
+        <div class = "row">
+          <div class="col-xs-12 col-sm-12 col-md-9" id = "hero">
+            <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+              <source src="video/guhloop.mp4" type="video/mp4">
+            </video>
+            <div id = "textual-content">
+              <span class = "title-text">The Great Uni Hack</span>
+            </div> 
+            <div class="helper-buttons">
+              <button class = "register" class="btn btn-default"> Sign Up</button>
+              <button class = "contact" class="btn btn-default"> Contact Us</button>
             </div>
-            <main class = "mdl-layout__content">
-                <div class = "page-content">
-                    <div class = "mdl-grid mdl-grid--no-spacing">
-                        
-                         <div class="mdl-cell  mdl-cell--9-col  mdl-cell--12-col-phone mdl-cell--12-col-tablet" id = "img-holder">
-                              <div><img src="./img/entech_cover-2.jpg"></div>    
-                         </div> 
-                         <div class="mdl-cell  mdl-cell--3-col mdl-cell--12-col-phone mdl-cell--12-col-tablet" id = "text-holder">
-                            <h1 class = "company_name"> Entech Kunststoffe Solutions Pvt.Ltd </h1>   
-                            <h5 class="company_subtext"> Engineering Solutions with Plastics </h5>
-                         </div>                   
-                    </div>
-                    <section class="section section--content section--about" id = "section--about">
-                        <div class = "mdl-grid about">
-                            <div class="mdl-cell mdl-cell--12-col">
-                                <h1 class="about--header"> About </h1>
-                                <h6>Established in  2014, Entech Kunstoffe Solutions is a joint venture between the Gandhi Family, promoters of Mutual Industries & Haresh G. Chandarana Family,  Founders of Timo Plast, Monarch Plastics & Premauni Tools. We seek to give our customers maximum returns - with our expertise & deep understanding of technology as well as customer's specifications, dedication of our staff and our passion for technology. </h6>
-                                <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--grey-900  mdl-js-ripple-effect" id = "more-info" href = "about.html">
-                                    Read More
-                                </a>
-                            </div>
-                            
-                        </div>
-                    </section>
-                    <section class="section section--content section--facility" id = "section--facility">
-                        <div class = "mdl-grid about">
-                            <div class="mdl-cell mdl-cell--7-col">
-                                <iframe
-                                    width="100%"
-                                    height="320px"
-                                    frameborder="0" style="border:0"
-                                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyALe2zdBYZymLbGgQ2rpixOi14FyV-CLQU
-                                    &q=Dhumal+Nagar,+Golani+Naka,+Vasai+East,+Vasai,+Maharashtra" allowfullscreen>
-                                </iframe>
-                                
-                            </div>
-                            <div class="mdl-cell mdl-cell--5-col">
-                                <h1 class="facility--header"> Facility </h1>
-                                <h6>Entech Kunstoffe's Mould Manufacturing Facility is situated in Vasai,  near Mumbai, to manufacture molds ranging in size for 20T to 400T Injection Molding Press.</h6>
-                                <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--grey-900  mdl-js-ripple-effect" id = "more-info" href = "facility.html">
-                                    More Info 
-                                </a>
-                                
-                            </div>
-                            
-                        </div>
-                    </section>
-                    <section class="section section--content section--clients" id = "section--clients">
-                        <div class = "mdl-grid clients">
-                            <div class="mdl-cell mdl-cell--4-col">
-                                <h1 class = "clients--header"> Our Clients </h1>
-                                <h6> Our clientele includes Larsen & Toubro Ltd, Volkswagen, Philips, IFB, Videocon amongst other companies </h6>
-                                <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--grey-900  mdl-js-ripple-effect" id = "more-info" href = "clients.html">
-                                   Our Products
-                                </a>
-                            </div>
-                            <div class="mdl-cell mdl-cell--8-col" id = "client-right">
-                               
-                                <img src="./img/logo.jpg">
-                                
-                            </div>
-                            
-                        </div>
-                    </section>
-                    <section class="section section--content section--contact" id = "section--contact">
-                        <div class = "mdl-grid contact">
-                            <div class="mdl-cell mdl-cell--6-col">
-                                <h1 class="enquiry--header"> Contact </h1>
-                                <h6> Mr. Hiren Chandrana | Mr. Uchit Gandhi</h6>
-                                <h6> hiren@entechks.com | udgandhi@entechks.com </h6>
-                                <h6> +919833285895 | +919820227395</h6>
-                                
-                            </div>
-                            
-                            <div class="mdl-cell mdl-cell--6-col">
-                                <h1 class = "enquiry--header"> Enquiry </h1>
-                                <form action = "#">
-                                    <div class = "mdl-textfield mdl-js-textfield">
-                                        <input class = "mdl-textfield__input" type = "text" id="name">
-                                        <label class="mdl-textfield__label" for="name">Name</label>
-                                    </div>
-                                    <div class = "mdl-textfield mdl-js-textfield">
-                                        <input class = "mdl-textfield__input" type = "text" id="email">
-                                        <label class="mdl-textfield__label" for="email">Email</label>
-                                    </div>
-                                    <div class = "mdl-textfield mdl-js-textfield">
-                                        <textarea class = "mdl-textfield__input" type = "text" id="enquiry"></textarea>
-                                        <label class="mdl-textfield__label" for="email">Your Enquiry</label>
-                                    </div>
-                                </form>
-                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--grey-900  mdl-js-ripple-effect" id = "more-info">
-                                   Send
-                                </button>
-                            </div>
-                            
-                            
-                        </div>
-                    </section>
-                </div>
-                <footer class="mdl-mega-footer mdl-color--grey-900">
-                    <div class="mdl-mega-footer__middle-section">
+          </div> <!-- Hero Container -->
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "event-details"> 
+            <i class="fa fa-calendar fa-5x" aria-hidden="true"></i>
+            <h1> Event Details </h1>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "faq"> 
+            <i class="fa fa-question-circle fa-5x" aria-hidden="true"></i>
+            <h1> FAQ </h1>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "sponsors"> 
+            <i class="fa fa-code-fork fa-5x" aria-hidden="true"></i>
+            <h1> Sponsors </h1>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "team"> 
+            <i class="fa fa-users fa-5x" aria-hidden="true"></i>
+            <h1> Team </h1>
+          </div>
+        </div>
+  		
+  	</div> <!-- Container Div -->
+  </body>
 
-                        <div class="mdl-mega-footer__drop-down-section">
-                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-                            <h1 class="mdl-mega-footer__heading">About</h1>
-                            <ul class="mdl-mega-footer__link-list">
-                                
-                                <li><a href="#">Vision</a></li>
-                                <li><a href="#">Goals</a></li>
-                                <li><a href="#">Clients</a></li>
-                            </ul>
-                        </div>
-
-                    <div class="mdl-mega-footer__drop-down-section">
-                        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-                        <h1 class="mdl-mega-footer__heading">Technology</h1>
-                        <ul class="mdl-mega-footer__link-list">
-                            <li><a href="#">Machinery</a></li>
-                            <li><a href="#">Process</a></li>
-                            <li><a href="#">People</a></li>
-                        </ul>
-                    </div>
-
-
-                    </div>
-
-                    <div class="mdl-mega-footer__bottom-section">
-                        <div class="mdl-logo">Site Design & Development: <a href = "mailto:aayushchadha0111@gmail.com">Aayush Chadha</a></div>
-                        <ul class="mdl-mega-footer__link-list">
-                            <li><a href="#">Privacy & Terms</a></li>
-                        </ul>
-                    </div>
-
-                </footer> <!-- Page Content -->
-            </main>
-            
-        </div> <!-- Layout div -->
-    </body>
-   </html>
+  <script src="js/typed.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script>
+    jQuery("#textual-content").fitText();
+  </script>
+</html>
