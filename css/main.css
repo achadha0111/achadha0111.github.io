@@ -2,34 +2,31 @@
 	height: 100%;
 	background-color: rgba(255, 206, 0, 0.6);
 }
-#nav-div {
-	height: 100%;
-}
 #event-details {
 	background-color: #F53240;
 	height: 25%;
 	min-height: 156px;
-	padding: 2em;
+	padding: 3em;
 	
 }
 #faq {
 	background-color: #008F95;	
 	height: 25%;
 	min-height: 156px;
-	padding: 2em;
+	padding: 3em;
 	
 }
 #sponsors {
 	background-color: #192231;
 	height: 25%;
 	min-height: 156px;
-	padding: 2em;
+	padding: 3em;
 }
 #team {
 	background-color: #A239CA;	
 	height: 25%;
 	min-height: 156px;
-	padding: 2em;
+	padding: 3em;
 }
 h2 {
 	color: white;
@@ -51,7 +48,7 @@ i {
 }
 .title-text {
 	padding-left: 10px;
-	font-size: 70px;
+	font-size: 40px;
 	color: white;
 	font-family: 'Lato', sans-serif;
     color: white;

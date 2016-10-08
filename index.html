@@ -13,6 +13,7 @@
    <script src="https://use.fontawesome.com/7dbec7de48.js"></script>
   </head>
   <body class = "grid">
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:absolute;left:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/eu-2017/events?utm_source=eu-2017&amp;utm_medium=TrustBadge&amp;utm_campaign=eu-2017&amp;utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
   	<div class="fluid-container">
         <div class = "row">
           <div class="col-xs-12 col-sm-12 col-md-9" id = "hero">
@@ -21,32 +22,29 @@
               <source src="video/guhloop.mp4" type="video/mp4">
             </video>
             <div id = "textual-content">
-              <span class = "title-text">The Great Uni Hack</span>
+              <span class = "title-text">TheGreatUniHack 2016</span>
             </div> 
             <div class="helper-buttons">
               <button class = "register" class="btn btn-default"> Sign Up</button>
               <button class = "contact" class="btn btn-default"> Contact Us</button>
             </div>
           </div> <!-- Hero Container -->
-          <div class="col-xs-12 col-sm-12 col-md-3" id = "nav-div"> 
-            <div id = "event-details">
-              <i class="fa fa-calendar fa-4x" aria-hidden="true"></i>
-              <h2> Event Details </h2>
-            </div>
-            <div id = "faq"> 
-              <i class="fa fa-question-circle fa-4x" aria-hidden="true"></i>
-              <h2> FAQ </h2>
-            </div>
-            <div id = "sponsors"> 
-              <i class="fa fa-code-fork fa-4x" aria-hidden="true"></i>
-              <h2> Sponsors </h2>
-            </div>
-            <div id = "team"> 
-              <i class="fa fa-users fa-4x" aria-hidden="true"></i>
-              <h2> Team </h2>
-            </div>
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "event-details">
+            <i class="fa fa-calendar fa-4x" aria-hidden="true"></i>
+            <h2> Event Details </h2>
           </div>
-          
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "faq"> 
+            <i class="fa fa-question-circle fa-4x" aria-hidden="true"></i>
+            <h2> FAQ </h2>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "sponsors"> 
+            <i class="fa fa-code-fork fa-4x" aria-hidden="true"></i>
+            <h2> Sponsors </h2>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "team"> 
+            <i class="fa fa-users fa-4x" aria-hidden="true"></i>
+            <h2> Team </h2>
+          </div>  
         </div>
   		
   	</div> <!-- Container Div -->
@@ -56,6 +54,6 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="js/jquery.fittext.js"></script>
   <script>
-    jQuery("#textual-content").fitText();
+    jQuery("#textual-content").fitText(1.2);
   </script>
 </html>
