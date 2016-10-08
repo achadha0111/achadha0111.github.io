@@ -8,23 +8,27 @@
 #event-details {
 	background-color: #F53240;
 	height: 25%;
+	min-height: 156px;
 	padding: 2em;
 	
 }
 #faq {
 	background-color: #008F95;	
 	height: 25%;
+	min-height: 156px;
 	padding: 2em;
 	
 }
 #sponsors {
 	background-color: #192231;
 	height: 25%;
+	min-height: 156px;
 	padding: 2em;
 }
 #team {
 	background-color: #A239CA;	
 	height: 25%;
+	min-height: 156px;
 	padding: 2em;
 }
 h2 {
