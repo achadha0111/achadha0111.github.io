@@ -52,13 +52,13 @@ i {
 	text-align: center;
 }
 #textual-content {
-	padding-top: 35vh;
+	padding-top: 30vh;
     width: 100%; /*set to 100% so text-align will fall in the center of the image*/
     text-align: left; /*text will be horizontally centered in the image*/
     color: white;
 }
 .title-text {
-	margin-left: 5px;
+	margin-left: 10px;
 	font-size: 38px;
 	color: white;
 	font-family: 'Lato', sans-serif;
@@ -138,7 +138,6 @@ video {
 	transform: translateZ(1500px) rotateY(-179.9deg);
     -ms-transform: translateZ(1500px) rotateY(-179.9deg);
     -webkit-transform: translate3d(0, -300px, 0);
-    
     transform: translate3d(0, -300px, 0);
     opacity: 1;
 }
