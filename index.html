@@ -1,23 +1,24 @@
 <html>
   <head>
-  	<title> Great Uni Hack 2016</title>
+  	<title> TheGreatUniHack 2016</title>
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   	<!-- Latest compiled and minified CSS -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Latest compiled and minified JavaScript -->
-	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	 <link rel="stylesheet" href="css/main.css"> 
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-   <script src="https://use.fontawesome.com/7dbec7de48.js"></script>
+	   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	  <link rel="stylesheet" href="css/main.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://use.fontawesome.com/7dbec7de48.js"></script>
   </head>
+
   <body class = "grid">
-    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:absolute;left:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/eu-2017/events?utm_source=eu-2017&amp;utm_medium=TrustBadge&amp;utm_campaign=eu-2017&amp;utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:absolute;left:50px;top:0;width:10%;z-index:5" href="https://mlh.io/seasons/eu-2017/events?utm_source=eu-2017&amp;utm_medium=TrustBadge&amp;utm_campaign=eu-2017&amp;utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
   	<div class="fluid-container">
         <div class = "row">
           <div class="col-xs-12 col-sm-12 col-md-9" id = "hero">
-            <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+            <video poster="img/guhposter2.png" id="bgvid" playsinline autoplay muted loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
               <source src="video/guhloop.mp4" type="video/mp4">
             </video>
@@ -29,31 +30,281 @@
               <button class = "contact" class="btn btn-default"> Contact Us</button>
             </div>
           </div> <!-- Hero Container -->
-          <div class="col-xs-12 col-sm-12 col-md-3" id = "event-details">
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "event-details" data-toggle = "modal" data-target = "#event-details-modal">
             <i class="fa fa-calendar fa-4x" aria-hidden="true"></i>
             <h2> Event Details </h2>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-3" id = "faq"> 
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "faq" data-toggle = "modal" data-target = "#faq-modal"> 
             <i class="fa fa-question-circle fa-4x" aria-hidden="true"></i>
             <h2> FAQ </h2>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-3" id = "sponsors"> 
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "sponsors" data-toggle = "modal" data-target = "#sponsors-modal"> 
             <i class="fa fa-code-fork fa-4x" aria-hidden="true"></i>
             <h2> Sponsors </h2>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-3" id = "team"> 
+          <div class="col-xs-12 col-sm-12 col-md-3" id = "team" data-toggle = "modal" data-target = "#team-modal"> 
             <i class="fa fa-users fa-4x" aria-hidden="true"></i>
             <h2> Team </h2>
-          </div>  
-        </div>
-  		
+          </div> 
+          <!-- Modals -->
+          <div id="event-details-modal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="even-details" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                   <a class="close" data-dismiss = "modal"><i class="fa fa-times-circle fa-3x" aria-hidden="true" ></i></a>
+                   <h2> <u>Event Details</u> </h2>
+                   <h3> 
+                      In 2014 we organised our very first Hackathon at the University of Manchester.
+                      We've grown up a lot since then and have returned even bigger and better, taking everything we learned from the last event to bring you the best hackathon experience possible.
+                      Why don't you check out how much fun we had in 2014?
+                   </h3>
+                   <h2> When? </h2>
+                   <h3> 12-13th November 2016</h3>
+                   <h2> Where? </h2>
+                   <iframe
+                    width="100%"
+                    height="50%"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=<REPLACE THIS BEFORE PUBLISHING>
+                    &q=The+University+of+Manchester" allowfullscreen>
+                  </iframe>
+
+                </div>
+                
+              </div>
+            </div>
+          </div> 
+
+
+          <div id="faq-modal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="even-details" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <a class="close" data-dismiss = "modal"><i class="fa fa-times-circle fa-3x" aria-hidden="true" ></i></a>
+                  <h2> <u>Frequently Asked Questions</u> </h2>
+                  <p class="question">Q: Are tickets free?</p>
+
+                  <p>A: Yes. They are 100% free!</p>
+                  <hr>
+                  <p class="question">Q: Who can get a ticket?</p>
+
+                  <p>A: Enrolled students or students who graduated in the last 12 months.</p>
+                  <hr>
+                  <p>Q: What if I study outside the UK?</p>
+
+                  <p>A: You are still eligible. If you are outside Europe, you may need to apply for a visa. We can't sponsor
+                    visas.</p>
+                  <p class="question">Q: I haven't coded much. Should I come? </p>
+                  <p>A: <a href="https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000">Hackathons are for
+                    beginners</a>.
+                    Networking with and seeing awesome hackers in action will expose you to a tremendous amount of
+                    knowledge.
+                    Amazing suit of industry experts and mentors that are happy to assist you! </p>
+                    <hr>
+                  <p class="question"> Q: What should I bring?</p>
+
+                  <p>A: Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters,
+                    hardware and a sleeping bag, oh and don't forget your enthusiasm!
+                    We are going to provide you with all food, swag, sleeping rooms and drinks you will need to keep you
+                    going.</p>
+                    <hr>
+                  <p class="question">Q: I don't have a team. Help?</p>
+
+                  <p>A: Don't let that discourage you - it is actually part of the fun! You will have 3 new friends by the
+                    end of the weekend.
+                    A team building session will be organized to help you form teams. We encourage everyone to use
+                    <a href="http://devpost.com">Devpost</a> to find teammates.</p>
+                    <hr>
+                  <p class="question">Q: What can I expect from GreatUniHack?</p>
+
+                  <p>A: An entire weekend of great company, good food and plenty of swag! We'll also have hardware and tons
+                    of mentors.</p>
+                    <hr>
+                  <p class="question">Q: I would like to mentor and give back to the community?</p>
+
+                  <p >A: Awesome! Please fill in this <a href="http://goo.gl/forms/4KDmis6b4W" target="_blank">form</a>
+                    and we will get back to you with more details.</p>
+                    <hr>
+                  <p class="question">Q: Do you have a code of conduct?</p>
+
+                  <p>A: Yes! We strictly adhere to the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                                                     target="_blank">Major League Hacking Code
+                    of Conduct</a>.</p><hr>
+                  <p class="question">Q: Do you have safeguarding document?</p>
+
+                  <p>A: Yes, we do! Please <a href="mailto:hello@studenthack.com">contact us</a> for more information.</p>
+                  <hr>
+                  <p class="question">Q: Who owns my IP/code/idea?</p>
+
+                  <p>A: You own all the rights to your intellectual property. We won't claim any right over anything made
+                    during this event.</p>
+                  <hr>
+                  <p class="question">Q: Who are the people behind this event?</p>
+
+                  <p>A: We are HackSoc MCR, run by students from The University of Manchester and Manchester Metropolitan
+                    University
+                    We are extremely passionate about hackathons and tech events and we have run StudentHack and
+                    GreatUniHack successfully for 4 years in Manchester.</p><hr>
+                  <p class="question">Q: What's the difference between StudentHack and GreatUniHack?</p>
+
+                  <p>A: StudentHack and GreatUniHack both stemmed from <a href="https://www.mmu.ac.uk">MMU</a> and <a
+                        href="https://www.manchester.ac.uk">Manchester University</a> respectively. We're now working
+                    together to deliver an even more epic hackathon.</p><hr>
+                  <p class="question">Q: I now love hackathons. How can I go to more?</p>
+
+                  <p>
+                    A: There's a lot of hackathons! Check out the <a href="https://mlh.io/seasons/s2016-eu/events"
+                                                                  target="_blank">MLH
+                    Europe Spring 2016</a> schedule to see other fantastic hackathons.</p><hr>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
+          <div id="sponsors-modal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="even-details" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                <a class="close" data-dismiss = "modal"><i class="fa fa-times-circle fa-3x" aria-hidden="true" ></i></a>
+                <h2> Hardware Lab Partners </h2>
+                <div class="row">
+                  <div class="col-md-4">
+                    <a href="http://www.estimote.com" target="_blank"><img src="./img/sponsors/estimote.png" class="sponsor-wide" alt="Estimote"></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="http://www.oculus.com" target="_blank"><img src="./img/sponsors/oculus.png" class="sponsor-wide" alt="Oculus VR"></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="http://www.leapmotion.com/" target="_blank"><img src="./img/sponsors/leap.png" class="sponsor-wide" alt="Leap Motion"></a>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                      <a href="https://getpebble.com" target="_blank"><img src="./img/sponsors/pebble.png" alt="Pebble"></a>
+                    </div>
+                    <div class="col-md-3"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4 col-md-offset-2">
+                      <a href="http://thalmic.com" target="_blank"><img src="./img/sponsors/thalmic.png" class="sponsor-wide" alt="Thalmic Labs"></a>
+                    </div>
+                    <div class="col-md-4">
+                      <a href="http://spark.io/" target="_blank"><img src="./img/sponsors/spark.png" class="sponsor-wide" alt="Spark"></a>
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+                  <div class = "row">
+                    <div class="col-md-6 col-md-offset-3">
+                       <a href="http://www.choosemuse.com/" target="_blank"><img src="./img/sponsors/muse.png" class="sponsor-wide" alt="MUSE"></a>
+                    </div>
+                    <div class="col-md-3"></div>
+                  </div>
+                </div>
+
+                   <h2> Bronze Sponsors </h2>
+                   <div class="row">
+                      <div class="col-md-4 col-md-offset-4">
+                        <a href="http://www.namebox.ro/" target="_blank"><img src="./img/sponsors/namebox.png" class="sponsor-wide" alt="namebox"></a>
+                      </div>
+                      <div class="col-md-4"></div>
+                    </div>
+                    <hr>
+                    <p style="color:#fff;">GreatUniHack is still looking for great companies to sponsor our event. If you are
+                    interested, click on the button below and</p>
+
+                    <div class="col-md-12 text-center">
+                      <a href="cdn-cgi/l/email-protection#c5b6b5aaabb6aab785a2b7a0a4b1b0abacada4a6aeeba6aaebb0aefab6b0a7afa0a6b1f896b5aaabb6aab7e582908d" class="btn btn-warning ">Sponsor the GreatUniHack</a>
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
+          <div id="team-modal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="even-details" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                   <a class="close" data-dismiss = "modal"><i class="fa fa-times-circle fa-3x" aria-hidden="true" ></i></a>
+                   <h2 class="section-title">The Team</h2>
+
+                  <p class="section-subtitle" style="color:white;"><u>Co-Directors</u></p>
+
+                  <div class="codirs">
+                      <div class="row">
+                        <div class = "col-md-3 col-md-offset-3">
+                         <a href="http://twitter.com/mihaibujanca"> <img src="./img/team/mihai.jpg"/></a>
+                         <p><a href="http://twitter.com/mihaibujanca" style="color:#fff;">Mihai Bujanca</a></p>
+                        </div>
+                        <div class="col-md-3">
+                          <a href="https://twitter.com/the_ghani"> <img src="./img/team/hamza.jpg"/></a>
+                          <p><a href="https://twitter.com/the_ghani" style="color:#fff;">Hamza Ghani</a></p>
+                        </div>
+                      </div>  
+                  </div>
+                  <p class="section-subtitle" style="color:white;"><u>Team</u></p>
+
+                  <div class="teamies">
+                  
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img src="./img/team/cristian.jpg"/>
+
+                          <p class="teamster">Cristian Bodnar</p>
+                        </div>
+                        <div class="col-md-3">
+                          <img src="./img/team/igor.jpg"/>
+
+                          <p class="teamster">Igor Wodiany</p>
+                        </div>
+                        <div class="col-md-3">
+                          <img src="./img/team/preslav.jpg"/>
+
+                          <p class="teamster">Preslav Venkov</p>
+                        </div>
+                        <div class="col-md-3">
+                          <img src="./img/team/julio.jpg"/>
+
+                          <p class="teamster">Julio Evega</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-3 col-md-offset-3">
+                          <img src="./img/team/cornelia.jpg"/>
+
+                          <p class="teamster"> Cornelia Secelean</p>
+                        </div>
+                        <div class="col-md-3">
+                          <img src="./img/team/martina.jpg"/>
+
+                          <p class="teamster">Martina Catizone</p>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-2 col-md-offset-5">
+                            <img src="./img/team/dhananjay.jpg"/>
+
+                            <p class="teamster">Dhananjay Sharma</p>
+                          </div >
+                          <div class="col-md-5">
+                          </div>
+                        </div>
+                        Site designed and developed by: <a href = "mailto:aayushchadha@outlook.com">Aayush Chadha</a>
+                        
+                      </div>
+                  </div>
+                  </div>
+                  
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>	
   	</div> <!-- Container Div -->
   </body>
 
   <script src="js/typed.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script src="js/jquery.fittext.js"></script>
-  <script>
-    jQuery("#textual-content").fitText(1.2);
-  </script>
+  
 </html>
