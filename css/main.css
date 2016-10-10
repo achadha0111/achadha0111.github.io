@@ -115,6 +115,7 @@ video {
   height: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .modal-content {
@@ -137,6 +138,7 @@ video {
 	transform: translateZ(1500px) rotateY(-179.9deg);
     -ms-transform: translateZ(1500px) rotateY(-179.9deg);
     -webkit-transform: translate3d(0, -300px, 0);
+    
     transform: translate3d(0, -300px, 0);
     opacity: 1;
 }
@@ -145,20 +147,20 @@ video {
 	background-color: #F53240;
 	height: 100%;
 	color: white;
-	overflow-y: auto;
+	overflow-y: scroll;
 	font-family: 'Open Sans', sans-serif;
 }
 #faq-modal .modal-body {
 	background-color: #4f8ffa;	
 	height: 100%;
 	color: white;
-	overflow-y: auto;
+	overflow-y: scroll;
 	font-family: 'Open Sans', sans-serif;
 }
 #sponsors-modal .modal-body {
 	background-color: #EEAA78;	
 	height: 100%;
-	overflow-y: auto;
+	overflow-y: scroll;
 	font-family: 'Open Sans', sans-serif;
 }
 #sponsors-modal .modal-body a img {
@@ -169,7 +171,7 @@ video {
 #team-modal .modal-body {
 	background-color: #A239CA;	
 	height: 100%;
-	overflow-y: auto;
+	overflow-y: scroll;
 	overflow-x: hidden; 
 	
 }
