@@ -115,12 +115,13 @@ video {
   height: 100%;
   margin: 0;
   padding: 0;
-  position: relative;
+  position: absolute;
 }
 
 .modal-content {
   height: 100%;
   border-radius: 0;
+
 }
 .modal.fade .modal-dialog {
     -webkit-transform: translateZ(1500px) rotateY(-179.9deg);
