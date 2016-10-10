@@ -41,7 +41,7 @@ h2, h3 {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 20px;
 }
 
@@ -148,20 +148,21 @@ video {
 	height: 100%;
 	color: white;
 	overflow-y: scroll;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 #faq-modal .modal-body {
 	background-color: #4f8ffa;	
 	height: 100%;
 	color: white;
 	overflow-y: scroll;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 #sponsors-modal .modal-body {
-	background-color: #EEAA78;	
+	color: black;
+	background-color: #fff;	
 	height: 100%;
 	overflow-y: scroll;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 #sponsors-modal .modal-body a img {
     max-width: 100%;
@@ -184,7 +185,7 @@ a {
 
 .teamster {
 	color: white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
