@@ -52,14 +52,14 @@ i {
 	text-align: center;
 }
 #textual-content {
-	padding-top: 30vh;
+	padding-top: 32vh;
     width: 100%; /*set to 100% so text-align will fall in the center of the image*/
     text-align: left; /*text will be horizontally centered in the image*/
     color: white;
 }
 .title-text {
 	padding-left: 20px;
-	font-size: 35px;
+	font-size: 30px;
 	color: white;
 	font-family: 'Lato', sans-serif;
     color: white;
