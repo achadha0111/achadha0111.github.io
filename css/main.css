@@ -2,6 +2,9 @@
 body {
 	overflow-x: hidden; 
 }
+.clickable {
+    cursor: pointer;
+}
 #hero {
 	height: 100%;
 	background-color: rgba(255, 206, 0, 0.5);
