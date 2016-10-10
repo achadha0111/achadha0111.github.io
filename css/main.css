@@ -137,7 +137,6 @@ video {
 	transform: translateZ(1500px) rotateY(-179.9deg);
     -ms-transform: translateZ(1500px) rotateY(-179.9deg);
     -webkit-transform: translate3d(0, -300px, 0);
-    bottom: 300px;
     transform: translate3d(0, -300px, 0);
     opacity: 1;
 }
