@@ -240,4 +240,20 @@ a {
 		height: 25%;
 		min-height: 156px;
 		padding: 3em;
+	}
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { 
+	#textual-content {
+	padding-top: 20vh;
+    width: 100%; /*set to 100% so text-align will fall in the center of the image*/
+    text-align: left; /*text will be horizontally centered in the image*/
+    color: white;
+	}
+	.helper-buttons {
+	padding-left: 10px;
+	text-align: left;
+	padding-top: 2vh;
+	}
 }
