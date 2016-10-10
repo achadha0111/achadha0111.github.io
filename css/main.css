@@ -58,8 +58,8 @@ i {
     color: white;
 }
 .title-text {
-	margin-left: 20px;
-	font-size: 38px;
+	padding-left: 20px;
+	font-size: 35px;
 	color: white;
 	font-family: 'Lato', sans-serif;
     color: white;
@@ -67,7 +67,7 @@ i {
 }
 
 .helper-buttons {
-	padding-left: 10px;
+	padding-left: 20px;
 	text-align: left;
 	padding-top: 5vh;
 }
