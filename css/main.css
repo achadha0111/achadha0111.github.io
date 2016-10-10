@@ -123,7 +123,7 @@ video {
   border-radius: 0;
 
 }
-.modal.fade .modal-dialog {
+/* .modal.fade .modal-dialog {
     -webkit-transform: translateZ(1500px) rotateY(-179.9deg);
 	transform: translateZ(1500px) rotateY(-179.9deg);
     -ms-transform: rotateY(180deg);
@@ -141,7 +141,7 @@ video {
     -webkit-transform: translate3d(0, -300px, 0);
     transform: translate3d(0, -300px, 0);
     opacity: 1;
-}
+} */
 
 #event-details-modal .modal-body{
 	background-color: #F53240;
