@@ -246,11 +246,19 @@ a {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) { 
 	#textual-content {
-	padding-top: 20vh;
+	padding-top: 10vh;
     width: 100%; /*set to 100% so text-align will fall in the center of the image*/
     text-align: left; /*text will be horizontally centered in the image*/
-    color: white;
+    color: white; 
 	}
+	.title-text {
+	margin-left: 5px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+    color: white;
+
+}
 	.helper-buttons {
 	padding-left: 10px;
 	text-align: left;
