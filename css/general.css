@@ -278,6 +278,9 @@ color: #ECEBEB;
 	font-weight: 400;
 	letter-spacing: 3px;
 }
+.location {
+	padding: 0;
+}
 
 .intro-divider {
 	width: 400px;
