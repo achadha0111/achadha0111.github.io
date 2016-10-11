@@ -1243,6 +1243,9 @@ p.copyright {
 	.mockup-content > span:nth-last-child(2) {
 		width: calc(100% - 210px);
 	}
+	.h1_home {
+		font-size: 30px;
+	}
 }
 
 @media screen and (max-width: 25em) {
