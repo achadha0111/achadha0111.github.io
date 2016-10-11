@@ -250,7 +250,16 @@ color: #ECEBEB;
 	background-size: cover;
 	text-align: center;
 }
+.layer {
+	
+    background-color: rgba(102,51,153, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 
+}
 .intro-message {
 	position: relative;
 	padding-top: 12%;
