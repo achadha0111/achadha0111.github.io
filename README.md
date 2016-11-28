@@ -1,7 +1,3 @@
-#Flatfy - Theme | New Version!
+#Aayush Chadha - Personal Website | Work Under Progress!
 
-##Responsive Mobile & Flat Design 
-Own Carousel & Bootstrap Framework CSS 
-Font Icon Svg & Animate
-
-Theme made by [Andrea Galanti](http://www.andreagalanti.it/flatfy.php)
+Will update with projects as and when I make them. 

@@ -1,0 +1,153 @@
+#introduction {
+	background: url(../img/intro2.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  padding-top: 25em;
+  height: 100vh;
+  text-align: center;
+
+}
+/** .my-image {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	top: 10em;
+	border-radius: 60%;
+} **/
+.intro-text {
+	color: white;
+	
+	font-family: 'Noto Sans', sans-serif;
+}
+.subtitle-text {
+  height: 40px;
+}
+.intro-text-subtitle {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+
+}
+.typed-cursor{
+	color: white;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+a {
+  color: white;
+  margin-right: 5px;
+}
+a :hover {
+  color: white;
+}
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+.project-column {
+  margin-top: 20px;
+}
+.project-list {
+  margin-top: 20px;
+}
+
+.legal-vision {
+  background-color: blue;
+  height: 70px;
+}
+.title {
+  color: black;
+}
+#project { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+#project p { 
+  line-height: 1.4; 
+}
+#project .curve { 
+  width: 33%; height: auto;
+  min-width: 100px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+}
+
+@media only screen and (max-width : 320px) {
+    	#introduction {
+    		padding-top: 8em;
+    	}  
+    	.title {
+    		font-size: 25px;
+    	}
+}
+span{
+	border-bottom: 1px dotted #FF0000;
+} 
