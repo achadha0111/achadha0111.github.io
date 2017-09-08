@@ -10,6 +10,8 @@
   text-align: center;
 
 }
+
+
 /** .my-image {
 	position: relative;
 	display: block;
@@ -111,11 +113,11 @@ a :hover {
   -o-animation: fadeIn ease 5s;
   -ms-animation: fadeIn ease 5s;
 }
-.project-column {
-  margin-top: 20px;
+#experience {
+  margin-top: 10px;
 }
 .project-list {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .legal-vision {
@@ -125,18 +127,17 @@ a :hover {
 .title {
   color: black;
 }
-#project { 
-  font-family: Open Sans, sans-serif; 
-  margin: 2rem; 
+.project-list #project {
+  font-family: Open Sans, sans-serif;
 }
 #project p { 
   line-height: 1.4; 
 }
-#project .curve { 
+#project .curve {
   width: 33%; height: auto;
   min-width: 100px;
   float: left;
-  margin-right:2rem; 
+  margin-right:2rem;
   border-radius: 50%;
 }
 
@@ -150,4 +151,17 @@ a :hover {
 }
 span{
 	border-bottom: 1px dotted #FF0000;
-} 
+}
+
+.column-heading {
+  border-bottom: 3px dotted;
+}
+
+.news-articles{
+  text-decoration: none;
+  color: darkblue;
+}
+
+.subtitle {
+  border-bottom: 1px dotted teal;
+}
