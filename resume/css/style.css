@@ -1,0 +1,185 @@
+.header > .container {
+    height: 60%;
+    text-align: center;
+    color: white;
+    padding: 10%;
+}
+
+.header {
+    background: url(../img/Rohtang.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+i {
+    color: white;
+    margin-right: 5px;
+}
+i {
+    color: white;
+}
+
+#education {
+    padding: 20px;
+    background: #262523;
+    color: white;
+}
+
+p {
+    color: darkgray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#research {
+    padding: 20px;
+    background: #4e4e4e;
+    color: white;
+}
+
+#research > p {
+    color: lightgray;
+}
+
+#research:hover {
+    color: lightseagreen;
+}
+
+#work {
+    padding: 20px;
+    background: #949494;
+    color: white;
+}
+
+#work > p {
+    color: #e5e5e5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#work:hover {
+    color: lightseagreen;
+}
+
+#startup {
+    padding: 20px;
+}
+
+#startup:hover {
+    color: lightseagreen;
+}
+
+h2, h4, h5 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#data-ed-sheeran {
+
+    background: url(../img/ed.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+}
+
+#ed-sheeran-description:hover {
+    color: lightseagreen;
+}
+
+#hackathon-cognitive-crowd-description:hover {
+    color: lightseagreen;
+}
+
+#ed-sheeran-description, #hackathon-cognitive-crowd-description, #toilet-magnet  {
+    padding: 20px;
+}
+
+#hackathon-cognitive-crowd {
+    background: url(../img/cc.png) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    position: relative;
+}
+
+#toilet-magnet {
+    background: #262523;
+    color: white;
+}
+
+#toilet-magnet:hover {
+    color: lightseagreen;
+}
+
+#hackathon-mobile-parkinsons {
+    padding: 20px;
+    background-color: #949494;
+    color: white;
+}
+
+#hackathon-mobile-parkinsons > p {
+    color: #e5e5e5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#hackathon-mobile-parkinsons:hover {
+    color: lightseagreen;
+}
+
+#tickx-bot {
+    background: url(../img/bot.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    position: relative;
+}
+
+#tickx-bot-description {
+    color: white;
+    padding: 50px;
+    background-color: #262523;
+}
+
+#tickx-bot-description:hover {
+    color: lightseagreen;
+}
+
+#diff-post {
+    background: url(../img/mlh.png) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    position: relative;
+
+}
+
+#diff-post-description {
+
+    color: white;
+    padding: 50px;
+    background-color: #4e4e4e;
+
+}
+
+#diff-post-description:hover {
+    color: lightseagreen;
+}
+
+#news {
+    padding: 50px;
+}
+
+#news:hover {
+    color: lightseagreen;
+}
+
+
+
+
+
