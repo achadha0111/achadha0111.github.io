@@ -33,6 +33,15 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    color: white;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
 #research {
     padding: 20px;
     background: #4e4e4e;
@@ -43,9 +52,7 @@ p {
     color: lightgray;
 }
 
-#research:hover {
-    color: lightseagreen;
-}
+
 
 #work {
     padding: 20px;
@@ -58,9 +65,7 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-#work:hover {
-    color: lightseagreen;
-}
+
 
 #startup {
     padding: 20px;
@@ -117,12 +122,16 @@ h2, h4, h5 {
 
 #hackathon-mobile-parkinsons {
     padding: 20px;
-    background-color: #949494;
+    background-color: #4e4e4e;
     color: white;
 }
 
 #hackathon-mobile-parkinsons > p {
-    color: #e5e5e5;
+    color: white;
+}
+
+#hackathon-mobile-parkinsons > p {
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -204,6 +213,152 @@ h2, h4, h5 {
 
     border-top: 20px solid #4e4e4e;
 }
+
+
+#hackathon-cognitive-crowd-description > a {
+    color: #000;
+}
+
+#hackathon-cognitive-crowd-description > a:hover {
+    color: lightseagreen;
+}
+
+#hackathon-mobile-parkinsons > p {
+    color: white;
+}
+
+#ed-sheeran-description > a > h2 {
+    color: black;
+}
+
+
+#ed-sheeran-description > a > h2:hover {
+    color: lightseagreen;
+}
+
+
+
+#news > a > h2 {
+    color: black;
+}
+
+#news > a > h2:hover {
+    color: lightseagreen;
+}
+
+#title {
+    color: black;
+}
+
+#startup > a {
+    color: black;
+}
+
+#startup > a:hover {
+    color: lightseagreen;
+}
+
+#tickx-bot-description > a:hover {
+    color: lightseagreen;
+}
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #diff-post {
+        display: none;
+    }
+
+    #data-ed-sheeran {
+        display: none;
+    }
+
+    #tickx-bot {
+        display: none;
+    }
+
+    #hackathon-cognitive-crowd {
+        display: none;
+    }
+
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #diff-post {
+        display: none;
+    }
+
+    #data-ed-sheeran {
+        display: none;
+    }
+
+    #tickx-bot {
+        display: none;
+    }
+
+    #hackathon-cognitive-crowd {
+        display: none;
+    }
+
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #diff-post {
+        display: none;
+    }
+
+    #data-ed-sheeran {
+        display: none;
+    }
+
+    #tickx-bot {
+        display: none;
+    }
+
+    #hackathon-cognitive-crowd {
+        display: none;
+    }
+
+}
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+    #diff-post {
+        display: none;
+    }
+
+    #data-ed-sheeran {
+        display: none;
+    }
+
+    #tickx-bot {
+        display: none;
+    }
+
+    #hackathon-cognitive-crowd {
+        display: none;
+    }
+
+}
+
+
+
+
 
 
 
