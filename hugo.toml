@@ -21,9 +21,9 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hi! 👋🏼'
 homeIntroContent = """
-I am an engineer who works across the atoms to bits stack. I did my PhD in Nanosciences at the University of Manchester, where I built nanomaterials based
-photodetectors, wireless power transfer systems and designed some really tiny circuit boards. Before that, I worked as a data engineer and did an undergraduate
-degree in Artificial Intelligence. Currently exploring neurotechnology and quantum computing.
+I am an engineer who works across the atoms to bits stack. I did my PhD in Nanosciences at the University of Manchester, where I built nanomaterials-based
+photodetectors, wireless power transfer systems and designed some really tiny circuit boards at the [National Graphene Institute](https://www.graphene.manchester.ac.uk/ngi/). Before that, I worked as a data engineer at [TickX](https://www.tickx.com) and did an undergraduate
+degree in Artificial Intelligence. I also spent [some time](https://substack.com/@actinkers/note/p-154258835) at [Entrepreneur First](https://www.joinef.com) in London. Currently exploring neurotechnology and quantum computing.
 """
 
 # Collection to display on home
@@ -61,12 +61,12 @@ name = "home"
 url = "/"
 
 [[params.menu]]
-name = "posts"
-url = "/posts"
-
-[[params.menu]]
 name = "about"
 url = "/about"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
 
 # Syntax highlight on code blocks
 [markup]
