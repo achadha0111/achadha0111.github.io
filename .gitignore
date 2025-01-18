@@ -1,0 +1,37 @@
+.obsidian/
+*.bak
+
+# Hugo output directory
+public/
+
+# Local server-generated files
+resources/
+
+# Log files
+hugo_stats.json
+
+# Temporary system files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# OS-specific files
+._*
+*.swp
+*.lock
+*~
+.nfs*
+
+# Hugo Module Cache
+hugo_cache/
+
+# Git-specific files
+*.orig
+
+# Sensitive environment or configuration files
+.env
