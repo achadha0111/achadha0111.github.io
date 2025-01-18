@@ -3,7 +3,7 @@
 
 # Hugo output directory
 public/
-
+content/posts/templates
 # Local server-generated files
 resources/
 
