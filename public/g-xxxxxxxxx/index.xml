@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>G Xxxxxxxxx on Aayush Chadha</title>
-    <link>http://localhost:1313/g-xxxxxxxxx/</link>
+    <link>https://example.org/g-xxxxxxxxx/</link>
     <description>Recent content in G Xxxxxxxxx on Aayush Chadha</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/g-xxxxxxxxx/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/g-xxxxxxxxx/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

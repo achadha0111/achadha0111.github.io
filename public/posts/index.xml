@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Aayush Chadha</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://example.org/posts/</link>
     <description>Recent content in Posts on Aayush Chadha</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello, world!</title>
-      <link>http://localhost:1313/posts/hello/</link>
+      <link>https://example.org/posts/hello/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hello/</guid>
+      <guid>https://example.org/posts/hello/</guid>
       <description>A corny &amp;lsquo;Hello, world&amp;rsquo; page to inaugrate the site and test whether everything renders properly.</description>
     </item>
   </channel>
