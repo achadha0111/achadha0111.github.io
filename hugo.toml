@@ -21,8 +21,8 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hi! 👋🏼'
 homeIntroContent = """
-I am an engineer who works across the atoms to bits stack. I did my PhD in Nanosciences at the University of Manchester, where I built nanomaterials-based
-photodetectors, wireless power transfer systems and designed some really tiny circuit boards at the [National Graphene Institute](https://www.graphene.manchester.ac.uk/ngi/). Before that, I worked as a data engineer at [TickX](https://www.tickx.com) and did an undergraduate
+I am an engineer who works across the atoms to bits stack. I did my PhD in Nanosciences at the University of Manchester's [National Graphene Institute](https://www.graphene.manchester.ac.uk/ngi/), where I built nanomaterials-based
+photodetectors, wireless power transfer systems and designed some really tiny circuit boards. Before that, I worked as a data engineer at [TickX](https://www.tickx.com) and did an undergraduate
 degree in Artificial Intelligence. I also spent [some time](https://substack.com/@actinkers/note/p-154258835) at [Entrepreneur First](https://www.joinef.com) in London. Currently exploring neurotechnology and quantum computing.
 """
 
@@ -41,7 +41,7 @@ breadcrumbs = true
 # Social icons
 [[params.social]]
 name = "linkedin"
-url = "www.linkedin.com/in/aayush-chadha"
+url = "https://www.linkedin.com/in/aayush-chadha"
 
 [[params.social]]
 name = "github"
