@@ -7,7 +7,10 @@ categories: []
 math: true
 summary: Deep dive into epigenetic and transcriptomic reprogramming to reverse aging in cells.
 ---
-
+<!-- Pre publication checklist
+1. Check for patents
+2. Check for other companies - NewLimit, Precigenetics, Altos, Calico, Retro Biosciences 
+3. Check for disease areas - skin, eye, neurons -->
 Sometimes you read a paper that substantially alters your views on the possibilities of science and you get this insatiable desire to dig 
 into every detail of that paper. 
 [Plesa et al.'s Transcriptomic reprogramming for neuronal age reversal](https://pubmed.ncbi.nlm.nih.gov/37004545/) is one such paper 
@@ -37,6 +40,22 @@ I ask this as the transcriptome is controlled by the epigenome and companies
 like [NewLimit](https://www.newlimit.com) are developing epigenetic reprogramming drugs (although their first target is the liver). Is it harder
 to read the epigenome of a cell compared to the transcriptome? Evidence certainly suggests so. I'll come back to this point as it requires a deeper comparison
 of both the read and write techniques.
+
+My initial read of the paper suggests that what the paper terms as transcriptomic reprogramming is actually epigenetic reprogramming since the process
+is phrased as:
+
+> The permanence of a reprogrammed state is determined by the strength and duration of the initial perturbations, whose effect on 
+  key epigenetic regulators can in turn induce stable alterations in the chromatin landscape.
+
+To properly understand this, I need to ground my understanding of what a gene regulatory network (GRN) is and how it might be perturbed substantially.
+Essentially, the GRN describes cascades that lead to levels of gene expression. This gene, with so and so mRNA and so and so proteins leads to so and so
+level of protein expression. The claim now goes that if one intervenes at the right node, one can tune this machinery to affect key epigenetic regulators
+which in turn affect the chromatin landscape. 
+
+Effectively, the chromatin is guarded by the epigenetic regulators responsible for altering its structure. These regulators are influenced by the gene regulatory
+network as they are likely proteins part of the feedback loops. As their levels vary, they trigger downstream changes on the chromatin as well.
+To perturb this network, screens across genetic targets are carried that determine how that gene (+epigenome) influences protein expression such that
+aging related changes are reversed. 
 
 
 
